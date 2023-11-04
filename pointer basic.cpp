@@ -4,6 +4,6 @@ int main()
 {
 	int a=10;
 	int *b=&a;
-	cout<<"The valude of b is" <<&a;
+	cout<<"The value at adress of b is" <<*b<<endl;
 	return 0;
 }
